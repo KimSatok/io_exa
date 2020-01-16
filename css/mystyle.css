@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+#header{
+    background-color: aquamarine;
+}
+#menu{
+    background-color: antiquewhite
+}
+#content{
+    background-color: burlywood;
+}
+#footer{
+    background-color: cadetblue;
+}
