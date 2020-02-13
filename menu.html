@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/myfunctions.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="css/mystyle.css" media="screen">
     <title>PHP Exercise Menu</title> 
 
@@ -17,7 +18,11 @@
         This is header
     </div>
     <div id="menu">
-        This is the menu
+        <ul>
+            <li> <a href="#" onclick="loadDoc('page1.html')">Page1</a> </li>
+            <li> <a href="#" onclick="loadDoc('page2.html')">Page2</a> </li>
+            <li> <a href="#" onclick="loadDoc('page3.php')">Page3</a> </li>
+        </ul>
     </div>
     <div id="content">
         Imprissive Content

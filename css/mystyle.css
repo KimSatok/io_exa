@@ -1,15 +1,32 @@
-body {
-    text-align: center;
+html, body {
+  height: 100%;
+  width: 100%;
 }
+
 
 #header{
     background-color: aquamarine;
 }
 #menu{
-    background-color: antiquewhite
+    background-color: antiquewhite;
+    
+    float: left ;
+    width: 150px ;
+    height: 100% ;
+    font-size: 20px;
+}
+#menu ul li{
+    list-style:none;
+}
+#menu ul li a{
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: tomato;
 }
 #content{
-    background-color: burlywood;
+  
+    margin-left: 160px;
 }
 #footer{
     background-color: cadetblue;
